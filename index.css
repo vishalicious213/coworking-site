@@ -49,8 +49,21 @@ h1 {
 
 /* ITEM SECTIONS */
 
+.item {
+    position: relative;
+}
+
 .item-img {
     width: 100%;
+}
+
+.img-banner {
+    position: absolute; /* also makes element only as wide as it needs to hold content */
+    top: 0;
+    left: 0;
+    background-color: #cd6858;
+    color: whitesmoke;
+    padding: .75rem
 }
 
 .caption {
