@@ -84,3 +84,24 @@ button {
     cursor: pointer;
     align-self: center; /* instead of align-items: center on parent, aligns specific item */
 }
+
+/* CHATBOX */
+
+.chatbox-container {
+    position: fixed;
+    bottom: .5rem;
+    right: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dda15e;
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    box-shadow: 1px 1px 5px #999;
+    cursor: pointer;
+}
+
+.chatbox-img {
+    width: 50%;
+}
