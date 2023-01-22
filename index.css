@@ -55,6 +55,7 @@ h1 {
 
 .item-img {
     width: 100%;
+    display: block; /* images are inline, so have top/bottom margins to stop them from running into the top/bottom of long letters like "y" */
 }
 
 .img-banner {
@@ -69,6 +70,7 @@ h1 {
 .caption {
     display: flex;
     justify-content: space-between;
+    /* align-items: center; */
     gap: 1.25rem;
     margin: 0 1.5rem;
 }    
@@ -80,4 +82,5 @@ button {
     padding: .75rem 1rem;
     font-weight: 700;
     cursor: pointer;
+    align-self: center; /* instead of align-items: center on parent, aligns specific item */
 }
