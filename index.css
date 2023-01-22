@@ -32,7 +32,10 @@ li {
 
 .icon {
     width: 1.5rem;
-    /* margin: 0 1rem; */
+}
+
+.align-right {
+    margin-left: auto; /* push the <li> to the right in the flex container */
 }
 
 /* HERO SECTION */
