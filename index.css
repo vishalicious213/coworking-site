@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
+    background-color: whitesmoke;
 }
 
 /* HEADER */
@@ -25,4 +26,12 @@ ul {
 nav img {
     width: 1.5rem;
     margin: 0 1rem;
+}
+
+/* HERO SECTION */
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin: 2rem 1.5rem;
 }
