@@ -92,6 +92,10 @@ button {
     align-self: center; /* instead of align-items: center on parent, aligns specific item */
 }
 
+a {
+    align-self: center;
+}
+
 /* CHATBOX */
 
 .chatbox-container {
