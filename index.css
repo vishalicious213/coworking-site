@@ -25,6 +25,7 @@ ul {
     margin: 0;
     list-style-type: none;
     gap: .75rem; /* add space between elements in flex container, but not edges */
+    position: relative;
 }
 
 li {
@@ -123,4 +124,33 @@ a {
 
 .chatbox-img {
     width: 50%;
+}
+
+/* MENU */
+
+#burger {
+    position: absolute;
+    right: 1.5rem;
+    top: 1.5rem;
+}
+/* 
+#burger:hover ~ #menu,
+#burger:focus ~ #menu,
+#burger:active ~ #menu {
+    display: block;
+    position: absolute;
+    right: 1.5rem;
+    top: 3rem;
+} */
+
+#menu {
+    background-color: black;
+    position: absolute;
+    right: 1.5rem;
+    top: 3rem;
+    text-align: right;
+}
+
+.menu-hide {
+    display: none;
 }
