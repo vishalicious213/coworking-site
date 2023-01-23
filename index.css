@@ -1,8 +1,10 @@
 body {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
-    color: #282828
+    background-color: gainsboro;
+    color: #282828;
+    max-width: 800px;
 }
 
 /* HEADER */
@@ -40,6 +42,10 @@ li {
 
 /* HERO SECTION */
 
+.hero {
+    background-color: white;
+}
+
 h1 {
     font-size: 2.5rem;
     font-weight: 400;
@@ -51,6 +57,7 @@ h1 {
 
 .item {
     position: relative;
+    background-color: white;
 }
 
 .item-img {
