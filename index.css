@@ -1,6 +1,6 @@
 body {
     margin: 0 auto;
-    padding: 0 0 5rem 0;
+    padding: 0;
     font-family: 'Montserrat', sans-serif;
     background-color: gainsboro;
     color: #282828;
@@ -184,4 +184,10 @@ a {
 
 #menu a:hover {
     color: #cd6858;
+}
+
+footer {
+    height: 4rem;
+    background-color: white;
+    border-top: 1px dashed #cd6858;
 }
