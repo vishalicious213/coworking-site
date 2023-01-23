@@ -58,6 +58,15 @@ li {
     margin-left: auto; /* push the <li> to the right in the flex container */
 }
 
+header a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: #cd6858;
+}
+
 /* HERO SECTION */
 
 .hero {
@@ -146,18 +155,8 @@ a {
     right: 1.5rem;
     top: 1.5rem;
 }
-/* 
-#burger:hover ~ #menu,
-#burger:focus ~ #menu,
-#burger:active ~ #menu {
-    display: block;
-    position: absolute;
-    right: 1.5rem;
-    top: 3rem;
-} */
 
 #menu {
-    /* outline: 1px solid red; */
     background-color: #282828;
     position: absolute;
     right: 1.5rem;
