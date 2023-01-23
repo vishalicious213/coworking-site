@@ -7,6 +7,10 @@ body {
     max-width: 800px;
 }
 
+.fantasy {
+    font-family: 'IM Fell English', serif;
+}
+
 /* HEADER */
 
 header {
