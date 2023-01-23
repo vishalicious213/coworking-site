@@ -15,6 +15,10 @@ body {
     font-family: 'Michroma', sans-serif;
 }
 
+#sci-fi-h1 {
+    font-size: 1.75rem;
+}
+
 .horror {
     font-family: 'Eater', cursive;
 }
