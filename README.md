@@ -10,11 +10,11 @@ Deployed at: https://vish213-coworking.netlify.app/
 
 - imported Google Fonts
 - Semantic HTML elements
-    - <header>
-    - <nav>
-    - <main>
-    - <section>
-    - <footer>
+    - \<header>
+    - \<nav>
+    - \<main>
+    - \<section>
+    - \<footer>
 
 ## CSS concepts
 
