@@ -15,3 +15,30 @@ Deployed at: https://vish213-coworking.netlify.app/
     - <main>
     - <section>
     - <footer>
+
+## CSS concepts
+
+- display: block
+- display: none
+- display: flex
+    - align-items: center
+    - align-self: center
+    - justify-content: 
+        - space-between
+        - center
+    - gap
+- list-style-type: none
+- position: absolute
+    - top
+    - left
+- position: relative
+- position: fixed
+    - bottom
+    - right
+- margin: 0 auto
+- cursor: pointer
+- transform: scale(1.1)
+- box-shadow
+- text-align
+- text-decoration: none
+- border-top
